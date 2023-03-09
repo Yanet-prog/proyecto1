@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <title>home</title>
+
+    <style type="text/css">
+
+        body{
+             background:burlywood
+        }
+
+        #titulo{
+            color:lightcoral;
+        }
+
+        .negro{
+            background: black;
+            color: white;
+        }
+
+        .blanco{
+            background: beige;
+            color: darkgreen;
+
+        }
+
+        p{
+            border: 1px solid red;
+
+        }
+
+        .rojo{
+            background: lightcoral;
+
+        }
+
+        .azul{
+
+            background: lightblue;
+        }
+
+        .boton{
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <fieldset>
+    <h1 id="titulo" >Página principal</h1>
+    
+    <nav>
+<a href="" class="boton rojo">Inicio</a>
+<a href="" class="boton azul">Contacto</a>
+<a href="" class="boton rojo">Perfil</a>
+
+
+    </nav>
+
+    <h3 style="background: red;" >Subtítulo</h3>
+
+
+    <p class="negro">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vero nostrum velit sunt accusamus voluptatem quae quis sequi voluptatum labore, adipisci aperiam consequatur necessitatibus, dolor ducimus dignissimos veritatis possimus consectetur.
+    </p>
+
+    <p class="negro">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, facilis corporis dolores consequatur repudiandae, vero similique blanditiis eum commodi earum voluptatibus nisi sed eligendi qui porro aperiam asperiores aliquid perspiciatis.
+    </p>
+
+    <p class="blanco">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni, dolorem debitis ducimus natus tenetur, neque similique non fuga dignissimos enim rem? Quas dolorum, dignissimos laudantium hic eveniet voluptate beatae!
+    </p>
+
+    <p class="negro">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit laudantium distinctio quibusdam consequatur quia voluptates, quam eligendi eos molestias praesentium? Vero dignissimos commodi similique eveniet quam, sequi quod quas velit.
+    </p>
+
+    <p style="color:brown;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, officia ex atque quisquam harum est corporis libero excepturi voluptate? Doloremque, sed? In velit voluptas, voluptatem id pariatur omnis accusamus repellat.
+        </p>
+        <img src="imgs/Metabolic.PNG" alt="imagen de una lata">
+        <br>
+        <a href="login.html">iniciar sesión</a>
+    </fieldset>
+
+   <fieldset>
+        <legend>Formulario registro
+
+        </legend>
+       <form action="">
+        <label for="Nombre">
+            Nombre
+        <input type="text" placeholder="Ingresa tu nombre" id="Nombre">
+    </label> 
+
+        <br>
+
+        <label for="Apellido">
+        Apellido
+        <input type="text" placeholder="Ingresa tu Apellido" id="Apellido"> 
+    </label>
+
+    <br>
+    <label for="Departamento">
+        Departamento
+        <select name="" id="Departamento">
+
+        </select> 
+        <br>
+
+        <label for="Archivo">
+            Foto
+            <input type="file"> 
+        </label>
+
+        <br>
+
+        <label for="hobbies">
+            Hobbies
+        
+            <select name="hobbies" id="hobbies">
+                <option value="-1">Selecciona tu hobbie 
+                </option>
+                <option value="1">Leer</option>
+                <option value="2">Dormir</option>
+                <option value="3">Dibujar</option>
+                <option value="4">Ver peliculas</option>
+                <option value="5">Nadar</option>
+                <option value="6">Bailar</option>
+                <option value="7">Tocar un instrumento</option>
+                <option value="8">Otro</option>
+
+                <label for="Otro Cuál">
+                   Otro Cual
+                    <input type="text" placeholder="otro Cual" id="Otro Cual"> 
+                </label>
+
+                <h1>Selecciona un Hobbie</h1>
+ 
+            
+                <label for="Dibujar">
+               <input type="radio" id="Dibujar" name="Hobbie"> Dibujar
+            </label>
+            <br>
+
+        
+            <label for="Bailar">
+                <input type="radio" id="Bailar" name="Hobbie"> Bailar
+            </label>
+                    <br>
+
+            <label for="Nadar">
+                <input type="radio" id="Nadar" name="Hobbie"> Nadar
+            </label>
+            <br>
+
+            <label for="Tocar un instrumento">
+                <input type="radio" id="Tocar un instrumento" name="Hobbie"> Tocar un instrumento
+            </label>
+            <br>
+
+            <label for="Leer">
+                <input type="radio" id="Leer" name="Hobbie"> Leer
+            </label>
+            <br>
+
+            <h2>¿Qué te gusta hacer el fin de semana?</h2>
+
+            <label for="Cine">
+                <input type="checkbox" id="Cine"> Ir a cine
+           </label>
+           <br>
+
+           <label for="Rumba">
+            <input type="checkbox" id="Rumba"> Ir a discoteca
+           </label>
+           <br>
+
+           <label for="Gimnasio">
+            <input type="checkbox" id="Gimnasio"> Ir al Gimnasio
+           </label>
+           <br><br>
+
+           <label for="Fecha"> Ingrese fecha de nacimiento
+            <input type="date" id="fecha" value="2023-03-07" min="1940-01-01" max="2023-12-31">
+           </label>
+           <br><br>
+
+           <label for="Contraseña 1">
+            <input type="Password" id="Contraseña 1" placeholder="Ingrese su contraseña"> Ingrese la contraseña
+           </label>
+
+           <br><br>
+
+           <label for="Contraseña 2">
+            <input type="Password" id="Contraseña 2" placeholder="Ingrese su contraseña"> Confirme su contraseña 
+           </label>
+
+           <br><br>
+
+           <h2>¿Cómo te sientes hoy?</h2>
+
+           <p>
+            Crear un campo para actualizar el valor de texto, según el valor de rango
+           </p>
+
+           <input type="text" id="volumen">
+           <input type="range" id="calificación" min="0" max="1" step="0.1" />
+
+           <br><br>
+
+ 
+
+
+           <input type="color" value="#ff0000">
+           
+           <button>
+            Enviar
+           </button>
+            </select> <br>
+
+        
+
+
+
+    </label>
+
+</form>
+</fieldset>
+
+
+</body>
+</html>
